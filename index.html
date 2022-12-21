@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+  
+    
+    <script src="./buoi1.js"></script>
+
+    <!-- BÀI1 Viết chương trình tính lương nhân viên -->
+    <h1>Bài 1: Viết chương trình tính lương nhân viên</h1>
+    Lương Một Ngày <input type="text" id="n1">
+    <br>
+    <br>
+    Số Ngày làm <input type="text" id="n2">
+    Option
+    <select id="operator">
+      <option>*</option>
+    </select>
+    <br>
+    <br>
+    Kết quả <input type="text" id="result">
+    <button onclick="myFunction()">submit</button>
+    <script type="text/javaScript">function myFunction(){}
+          
+    </script>
+    <br>
+    <br>
+
+    <!-- BAI2 Viết chương trình nhập vào 5 số thực tùy ý -->
+    <h1>BAI2 Viết chương trình nhập vào 5 số thực tùy ý,Tính TB cộng chia hết cho 5</h1>
+    a: <input type="text" id="a">
+    <br>
+    <br>
+    b: <input type="text" id="b">
+    c: <input type="text" id="c">
+    d: <input type="text" id="d">
+    e: <input type="text" id="e">
+    <br>
+    <br>
+    Kết quả <input type="text" id="result">
+    <input type="button" value="Kết quả" onclick="alert(SUM(Number (a.value) , Number (b.value) , Number (c.value) , Number (d.value) , Number (e.value)))/5"></p>
+  <!-- BAI3 Quy đổi tiền -->
+  <h1>Bài 3: Quy đổi tiền</h1>
+  <input type="text" id="dauvao">
+  <select name="" id="select1">
+    <option value="n">VNĐ</option>
+    <option value="m">USD</option>
+  </select>
+  <select name="" id="select2">
+    <option value="n">VNĐ</option>
+    <option value="m">USD</option>
+  </select>
+  <button onclick="lamgido()">Kết quả</button>
+  
+<br>
+<br>
+  
+  <!-- BÀI4 Tính diện tích, chu vi hình chữ nhật -->
+  <h1>Bài 4: Tính diện tích, chu vi hình chữ nhật</h1>
+<form name="hinhchunhatform">
+  <input type="text" name="dai" id="dai" placeholder="chiều dài"><br>
+  <input type="text" name="rong" id="rong" placeholder="chiều rộng"><br>
+  <input type="button" value="Kết quả" onclick="hinhchunhat()">
+  <h1 id="chuvi"></h1>
+  <h2 id="dientich"></h2>
+</form>
+<br>
+<br>
+ <!-- BÀI5 TÍNH TỔNG 2 KÝ SỐ-->
+  
+  <h1>Bài 5 TÍNH TỔNG 2 KÝ SỐ</h1>
+  <p>x: <input type="text" id="y" /></p>
+  <p>z: <input type="text" id="k" /></p>
+  <input type="button" value="Kết quả" onclick="alert(sum(Number (y.value), Number (k.value)))"></p>
+  </body>
+  
+  </html>
